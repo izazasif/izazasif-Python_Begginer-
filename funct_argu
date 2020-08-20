@@ -1,0 +1,8 @@
+def name(lst):
+    print(lst)
+lst=[23,23,344,55]
+def name1(a, *d):
+    print(a)
+    print(d)
+name(lst)
+name1(1,1,2,3,4,4)

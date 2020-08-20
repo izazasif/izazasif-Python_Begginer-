@@ -1,0 +1,16 @@
+def wel():
+    print("Hwre is first")
+def add(x,y):
+    a=x+y
+    print(a)
+def sub(z,c):
+    b=z-c
+    return b
+def mult(s,g):
+    d=s+g
+    b=s-g
+    return d,b
+wel()
+add(2,4)
+print(sub(6,5))
+print(mult(4,2))

@@ -1,0 +1,23 @@
+def mark(lst,m):
+    print(lst)
+    print(m)
+    b=0
+    z=0
+    lst.sort()
+    for i in lst:
+        z += i
+        if(z<=m):
+            b+=1
+    print(b)
+
+
+
+
+
+n = int(input())
+m = int(input())
+lst=[]
+for i in range(0,n):
+    lst.append(int(input()))
+mark(lst,m)
+
